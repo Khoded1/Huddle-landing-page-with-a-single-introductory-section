@@ -1,0 +1,35 @@
+@media screen and (max-width: 375px) {
+	body {
+		background-image: url(../images/bg-mobile.svg);
+		background-repeat: no-repeat;
+	}
+	.huddle_logo {
+		width: 50%;
+	}
+	.huddle_container {
+		flex-direction: column;
+	}
+	.huddle_image {
+		width: 100%;
+	}
+	.huddle_details {
+		display: flex;
+		flex-direction: column;
+	}
+	.huddle__header {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.huddle__paragraph {
+		text-align: center;
+		font-size: 1.1rem;
+	}
+	.huddle__register {
+		text-align: center;
+		margin: 0 2rem;
+	}
+	.huddle__icons {
+		margin-top: 3rem;
+		justify-content: center;
+	}
+}

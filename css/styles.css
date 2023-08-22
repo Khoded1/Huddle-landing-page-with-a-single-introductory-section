@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: hsl(257, 40%, 49%);
+	background-image: url(../images/bg-desktop.svg);
+	background-repeat: no-repeat;
+	padding: 3rem;
+	color: #fff;
+	display: grid;
+	place-content: center;
+}
+.huddle_logo {
+	margin-bottom: 3rem;
+	width: 20%;
+}
+.huddle_container {
+	display: flex;
+	gap: 2rem;
+}
+.huddle_image {
+	width: 50%;
+}
+.huddle_details {
+	padding-top: 2.5rem;
+}
+.huddle__header {
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+.huddle__paragraph {
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+.huddle__register {
+	text-decoration: none;
+	color: hsl(257, 40%, 49%);
+	background-color: #fff;
+	padding: 0.6rem 3rem;
+	border-radius: 50px;
+	transition: all ease 0.8s;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	box-shadow: 1px 2px 4px 2px hsl(0, 1%, 36%);
+}
+.huddle__register:hover {
+	color: #fff;
+	background-color: hsl(300, 69%, 71%);
+}
+.huddle__icons {
+	display: flex;
+	justify-content: end;
+	gap: 0.5rem;
+}
+.huddle__icon {
+	color: #fff;
+	font-size: 1.5rem;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 0.41rem;
+}
+.huddle__icon:hover {
+	color: hsl(300, 69%, 71%);
+	border-color: hsl(300, 69%, 71%);
+	transition: all ease-in 0.2s;
+}
